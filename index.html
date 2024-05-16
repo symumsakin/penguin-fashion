@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    <header class="bg-[#fff7e0] flex justify-center">
+    <header class="bg-[#fff7e0] flex justify-center font-roboto">
         <div class="header-container w-4/5">
             <nav class="flex flex-col lg:flex-row lg:justify-between items-center py-4 space-y-4 lg:space-y-0 md:py-12">
                 <div class="logo">
@@ -42,7 +42,7 @@
                 </div>
 
                 <div class="nav-links">
-                    <ul class="flex space-x-10 font-medium font-roboto text-[#3C3C3C]">
+                    <ul class="flex space-x-10 font-medium text-[#3C3C3C]">
                         <li class="hover:cursor-pointer hover:text-black">Home</li>
                         <li class="hover:cursor-pointer hover:text-black">Product</li>
                         <li class="hover:cursor-pointer hover:text-black">About</li>
@@ -50,7 +50,27 @@
                     </ul>
                 </div>
             </nav>
-        </div>
+
+            <div class="hero flex items-center md:justify-between mb-10">
+                <div class="hero-left space-y-4 my-10 w-1/2">
+                    <h1 class="font-bebas text-7xl text-[#363958]"><span class="text-[#FABE4C]">Be the Penguins</span>
+                        <br>
+                        of Winter
+                    </h1>
+                    <p class="text-[#3E3E3E]">Lorem Ipsum is simply dummy text of the <br> printing
+                        and typesetting industry.</p>
+                    <button class="w-44 h-14 bg-gradient-to-b from-[#A4BC46] to-[#85A019] rounded-xl"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="w-6 h-6 inline">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                        </svg>
+                        Buy Now</button>
+                </div>
+
+                <div class="hero-right flex justify-center w-1/2 bg-[#a4bc46] rounded-full">
+                    <img src="images/jacket-4.png" alt="" class="w-3/4">
+                </div>
+            </div>
         </div>
     </header>
 </body>
